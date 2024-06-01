@@ -5,6 +5,13 @@
 `tail ~/.bashrc`
 `source ~/.bashrc`
 
+
+`conda create -n mlproj python=3.8 -y `
+`conda activate mlproj`
+`pip install -r requirements.txt`
+`python app.py`
+
+
 1.create `tenplate.py` to write the logic to create the folder structure
 
 create `setup.py` and `pip install -r requirements.txt` with `-e .` in the end in the reuirements.txt
@@ -13,7 +20,7 @@ create `setup.py` and `pip install -r requirements.txt` with `-e .` in the end i
 update config.yaml
 update schema.yaml
 update params.yaml
-update the entity
+update the entity (create using dataclass)
 update the configuration manager in src config
 update the components
 update the pipeline
